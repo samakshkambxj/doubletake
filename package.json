@@ -1,0 +1,32 @@
+{
+  "name": "doubletake",
+  "version": "0.1.0",
+  "description": "Catch unintended UI changes. Self-hosted visual regression testing with baselines in your repo.",
+  "type": "module",
+  "bin": {
+    "doubletake": "./src/cli.js"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test \"test/*.test.js\""
+  },
+  "keywords": [
+    "visual-regression",
+    "screenshot-testing",
+    "playwright",
+    "ci",
+    "testing"
+  ],
+  "dependencies": {
+    "pixelmatch": "^6.0.0",
+    "playwright": "^1.49.0",
+    "pngjs": "^7.0.0"
+  },
+  "license": "MIT"
+}
