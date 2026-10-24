@@ -18,6 +18,8 @@ npx doubletake check    # fail if the UI changed
 
 That's it. No account, no API key, no upload. Screenshots run in a headless browser on your machine or in your CI runner.
 
+![baseline, current and diff frames from a real doubletake run](docs/demo.gif)
+
 ## Why another one?
 
 Because the expensive part of visual testing isn't the diff, it's the review.
