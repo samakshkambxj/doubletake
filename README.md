@@ -6,6 +6,8 @@
 
 Visual regression testing where the baselines live in your repo, not someone else's cloud.
 
+[![ci](https://github.com/samakshkambxj/doubletake/actions/workflows/ci.yml/badge.svg)](https://github.com/samakshkambxj/doubletake/actions/workflows/ci.yml)
+
 </div>
 
 ```bash
