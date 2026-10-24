@@ -60,7 +60,7 @@ npm i -D doubletake
 npx playwright install chromium
 ```
 
-Requires Node 18+. The browser download is Playwright's, and it's the only heavyweight dependency.
+Requires Node 20+. The browser download is Playwright's, and it's the only heavyweight dependency.
 
 ## Config
 
